@@ -1,4 +1,4 @@
-from Inshorts.inshorts import InShorts
+from InshortsApi import InShorts
 
 obj = InShorts("all")
 obj.get_more()
@@ -8,3 +8,5 @@ print(obj.get_all_offset())
 obj.get_more("sports")
 print(obj.get_offset("sports"))
 print(obj.get_all_offset())
+
+
